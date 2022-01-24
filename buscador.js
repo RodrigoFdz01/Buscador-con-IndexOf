@@ -11,7 +11,14 @@ let productos = [
   { nombre: "Ciruela", valor: 500 },
   { nombre: "Frutilla", valor: 500 },
   { nombre: "Durazno", valor: 500 },
-  { nombre: "Kiwi", valor: 500 },
+  { nombre: "Arandano", valor: 500 },
+  { nombre: "Cereza", valor: 500 },
+  { nombre: "Fresa", valor: 500 },
+  { nombre: "Piña", valor: 500 },
+  { nombre: "Granada", valor: 500 },
+  { nombre: "Melon", valor: 500 },
+  { nombre: "Uva", valor: 500 },
+  { nombre: "Sandia", valor: 500 },
 ];
 
 function filtrar() {
@@ -36,7 +43,7 @@ boton.addEventListener("click", function () {
   filtrar();
 });
 //  por letra ingresada
-input.addEventListener("keyup", filtrar);
+//input.addEventListener("keyup", filtrar);
 
 //con fcn activa para ver todos los productos
 filtrar();
