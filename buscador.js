@@ -19,11 +19,13 @@ let productos = [
   { nombre: "Melon", valor: 500 },
   { nombre: "Uva", valor: 500 },
   { nombre: "Sandia", valor: 500 },
+  { nombre: "Kiwi", valor: 500 },
 ];
 
 function filtrar() {
   resultado.innerHTML = "";
   //console.log(input.value);
+
   let textoInput = input.value.toLowerCase();
 
   for (let producto of productos) {
