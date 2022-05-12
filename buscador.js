@@ -1,6 +1,6 @@
-let input = document.querySelector("#input");
-let boton = document.querySelector(".boton");
-let resultado = document.querySelector("#resultado");
+let input = document.querySelector(".section__input");
+let boton = document.querySelector(".section__button");
+let resultado = document.querySelector(".section__resultado");
 
 let productos = [
   { nombre: "Banana", valor: 500 },

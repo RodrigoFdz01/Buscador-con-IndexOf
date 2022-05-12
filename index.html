@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="firstdiv">
-      <h2>IndexOf Project</h2>
-      <div class="buscador">
-        <input id="input" type="text" placeholder="Ingresa una fruta" />
-        <button class="boton" type="button">Buscar</button>
-      </div>
-    </div>
+    <main class="main">
+      <h2 class="main__h2">IndexOf Project</h2>
+      <section class="section">
+        <input
+          class="section__input"
+          type="text"
+          placeholder="Ingresa una fruta"
+        />
+        <button class="section__button" type="button">Buscar</button>
+      </section>
+    </main>
 
-    <div>
-      <ul id="resultado"></ul>
-    </div>
-
+    <section>
+      <ul class="section__resultado"></ul>
+    </section>
     <script src="buscador.js"></script>
   </body>
 </html>
