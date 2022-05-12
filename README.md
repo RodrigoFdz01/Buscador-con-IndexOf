@@ -1,5 +1,3 @@
 # Buscador-con-IndexOf
 
-Proyecto de prueba en mejora.
-
-Project in progress.
+Project made with Javascript, Css and Html .
